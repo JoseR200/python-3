@@ -1,7 +1,5 @@
 from flask import request, jsonify, Response
-from app.app import mongo
 from bson import json_util
-from bson.objectid import ObjectId
 
 from app.services.user_services import UserService
 
